@@ -1,1 +1,0 @@
-../build-Debug/ConstructorAndOpOverloading/main.cpp.o ../build-Debug/ConstructorAndOpOverloading/person.cpp.o   

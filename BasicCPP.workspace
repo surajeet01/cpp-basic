@@ -2,8 +2,8 @@
 <CodeLite_Workspace Name="BasicCPP" Database="" Version="10000">
   <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
   <Project Name="ConstructorAndOpOverloading" Path="ConstructorAndOpOverloading/ConstructorAndOpOverloading.project" Active="No"/>
-  <Project Name="Polymorphism" Path="Polymorphism/Polymorphism.project" Active="Yes"/>
-  <Project Name="MultipleInheritance" Path="MultipleInheritance/MultipleInheritance.project" Active="No"/>
+  <Project Name="Polymorphism" Path="Polymorphism/Polymorphism.project" Active="No"/>
+  <Project Name="MultipleInheritance" Path="MultipleInheritance/MultipleInheritance.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

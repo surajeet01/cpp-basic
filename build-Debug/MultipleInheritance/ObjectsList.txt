@@ -1,1 +1,0 @@
-../build-Debug/MultipleInheritance/main.cpp.o   
