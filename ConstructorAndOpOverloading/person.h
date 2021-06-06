@@ -19,14 +19,15 @@ private:
      * Need to do so outside the scope of class */
     static int count;
 public:
-    /* Constructor : Compiler generate default no argument constructor and copy
-     * constructor unless we overload atleast one constructor. 
-     * If we overload atleast one, we have to define all types of contructors
-     * that we are going to use (except move-constructor, in case of which 
-     * copy-constructor (defined/ generated whichever is available ) is used in case 
-     * move-constructor is not available). 
+    /* Constructor : Compiler generates default no argument constructor.
+     * If, however, you do define a constructor, (even if it does take one or 
+     * more arguments) the compiler will not synthesize a constructor, at that 
+     * point, user has taken responsibility for constructing objects of that 
+     * class, so the compiler "steps back". 
      * 
-     * Default move-constructor is generated only when no other copy-constructor/
+     * Compiler always generates default copy_constructor if not user-declared
+     * 
+     * Default move-constructor is generated only when no copy-constructor/
      * any assignment operator overload/destructor has been explicitly defined */
     person(string _name = "Empty", int _age = 100) : name(_name), age(_age) {
         cout << "Constructor for : " << name << endl;
@@ -41,8 +42,8 @@ public:
      */
     /* default copy assignment is generated if not user-defined */
     person& operator=(const person&); 
-    /* Default move-assignment operator is generated only when no copy-constructor/
-     * any assignment operator overload/destructor have been defined.
+    /* Default move-assignment operator is generated only when no copy/move-constructor/
+     * copy assignment operator overload/destructor have been defined.
      * available copy-assignment-overload is used when no
      * move-assignment overload is done */ 
     person& operator=(person&&);

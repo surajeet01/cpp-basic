@@ -8,7 +8,7 @@ int person::count = 0; /* initialize static variable */
 int main()
 {
     person p1("John", 10); /* Constructor */
-    person p2;             /* Empty Constructor */
+    person p2;             /* Empty Constructor. "person p2()" is not allowed */
     person p3(p1);         /* Copy Constructor */ 
     person p4(move(p3));   /* Move constructor, p3 = "None"*/
     person p5(p1+p1);      /* Move constructor. may not get called because of "Copy Elision",
