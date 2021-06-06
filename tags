@@ -1,0 +1,4 @@
+DIAMOND_H	C:\Users\sbharati\Documents\BasicCPP\MultipleInheritance\diamond.h	/^#define DIAMOND_H$/;"	macro	line:2
+diamond	C:\Users\sbharati\Documents\BasicCPP\MultipleInheritance\diamond.h	/^class diamond$/;"	class	line:4
+diamond	C:\Users\sbharati\Documents\BasicCPP\MultipleInheritance\diamond.h	/^    diamond();$/;"	prototype	line:7	class:diamond	access:public	signature:()
+~diamond	C:\Users\sbharati\Documents\BasicCPP\MultipleInheritance\diamond.h	/^    ~diamond();$/;"	prototype	line:8	class:diamond	access:public	signature:()

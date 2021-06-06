@@ -1,0 +1,1 @@
+../build-Debug/BasicCPP/main.cpp.o ../build-Debug/BasicCPP/person.cpp.o   

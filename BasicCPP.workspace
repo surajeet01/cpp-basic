@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="BasicCPP" Database="" Version="10000">
+  <Project Name="Inheritance" Path="Inheritance/Inheritance.project" Active="No"/>
+  <Project Name="ConstructorAndOpOverloading" Path="ConstructorAndOpOverloading/ConstructorAndOpOverloading.project" Active="No"/>
+  <Project Name="Polymorphism" Path="Polymorphism/Polymorphism.project" Active="Yes"/>
+  <Project Name="MultipleInheritance" Path="MultipleInheritance/MultipleInheritance.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Inheritance" ConfigName="Debug"/>
+      <Project Name="ConstructorAndOpOverloading" ConfigName="Debug"/>
+      <Project Name="Polymorphism" ConfigName="Debug"/>
+      <Project Name="MultipleInheritance" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Inheritance" ConfigName="Release"/>
+      <Project Name="ConstructorAndOpOverloading" ConfigName="Release"/>
+      <Project Name="Polymorphism" ConfigName="Release"/>
+      <Project Name="MultipleInheritance" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
