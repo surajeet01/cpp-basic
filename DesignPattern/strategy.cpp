@@ -36,7 +36,7 @@ public:
 
 int main()
 {
-	strategy *sA = new strategyA();
+    strategy *sA = new strategyA();
     strategy *sB = new strategyB();
     
     processor *p = new processor();
