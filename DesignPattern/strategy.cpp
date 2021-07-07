@@ -22,6 +22,7 @@ public:
     }
 };
 
+/* processor uses current strategy to do something */
 class processor {
 private:
     strategy* s;
@@ -36,7 +37,7 @@ public:
 
 int main()
 {
-    strategy *sA = new strategyA();
+	strategy *sA = new strategyA();
     strategy *sB = new strategyB();
     
     processor *p = new processor();

@@ -18,6 +18,7 @@ public:
     ~new_lib() {};
 };
 
+/* Adapter over new_lib to be supported by runner */
 class adapter : public old_lib {
 private:
     new_lib *mylib;
